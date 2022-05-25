@@ -1,0 +1,41 @@
+// Place all the styles related to the Login controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.panel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .banner{
+        flex: 1;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        padding: 3em 3em;
+        
+        .phrase_home{
+            text-decoration: none;
+            text-align: center;
+            font-size: 2.5em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+
+    .form{
+        flex: 2;
+        background: lightgrey;
+        align-items: center;
+        text-align: center;
+
+        .form_input{
+            align-self: center;
+            margin: 1em 1em;
+        }
+
+        .form_links{
+            margin-top: 1.5em;   
+        }
+        
+    }
+}
