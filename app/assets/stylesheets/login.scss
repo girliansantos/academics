@@ -7,6 +7,8 @@
     display: flex;
     flex-direction: column;
 
+    background-image: url("background-site.jpg");
+
     .banner{
         flex: 1;
         align-items: center;
@@ -24,7 +26,6 @@
 
     .form{
         flex: 2;
-        background: lightgrey;
         align-items: center;
         text-align: center;
 
