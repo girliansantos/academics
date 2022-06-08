@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  pass: MyText
+  cpf: MyString
+  dt_nascimento: 2022-06-07
+
+two:
+  name: MyString
+  pass: MyText
+  cpf: MyString
+  dt_nascimento: 2022-06-07
